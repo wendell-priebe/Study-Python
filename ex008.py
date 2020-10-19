@@ -1,0 +1,6 @@
+# escrev8a um programa que leia um valor em metros e o exiba convertido em centimetros e milimetros)
+print('\033[35m-*-'*12)
+print('Conversor de metros\033[m')
+m=float(input('\033[30mMedida em metros:\033[m'))
+print('A medida de {}m corresponde a:'.format(m))
+print('{:.3f}km\n{:.2f}hm\n{}dam\n{:.0f}dm\n{:.0f}cm\n{:.0f}m'.format(m/1000, m/100, m/10, m*10, m*100, m*1000))
